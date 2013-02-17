@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="match_parent" android:id="@+id/relativeLayout">
+		<Button android:layout_width="wrap_content" android:text="   Wrong   "
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true" android:layout_toLeftOf="@+id/progressBar1"
+			android:id="@+id/wrongButton"></Button>
+		<Button android:layout_width="wrap_content" android:text="   Right   "
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true" android:layout_toRightOf="@+id/progressBar1"
+			android:id="@+id/rightButton"></Button>
+		<ProgressBar android:layout_width="wrap_content"
+			android:id="@+id/progressBar1" style="?android:attr/progressBarStyleSmall"
+			android:layout_height="wrap_content" android:layout_alignTop="@+id/wrongButton"
+			android:layout_centerHorizontal="true" android:layout_marginTop="14dp"></ProgressBar>
+		<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content" android:text="TextView"
+			android:layout_height="wrap_content" android:layout_below="@+id/linearLayout1"
+			android:layout_centerHorizontal="true" android:id="@+id/categoryText"
+			android:gravity="center_horizontal" android:layout_marginTop="20dp"></TextView>
+		<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/clueText" android:layout_width="wrap_content"
+			android:layout_margin="30dp" android:gravity="center_horizontal"
+			android:text="TextView" android:layout_height="wrap_content"
+			android:layout_below="@+id/valueText" android:layout_marginTop="24dp"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentLeft="true" android:layout_above="@+id/wrongButton"></TextView>
+		<TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/valueText" android:layout_width="wrap_content" android:gravity="center_horizontal" android:layout_height="wrap_content" android:layout_below="@+id/categoryText" android:layout_centerHorizontal="true" android:layout_marginTop="30dp" android:text="@string/test2"></TextView>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_alignRight="@+id/wrongButton" android:id="@+id/backButton" android:text="@string/backButton"></Button>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:layout_alignLeft="@+id/rightButton" android:id="@+id/answerButton" android:text="@string/answerButton"></Button>
+	</RelativeLayout>
+</LinearLayout>

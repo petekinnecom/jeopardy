@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Jeopardy</string>
+    <string name="test">100</string>
+    <string name="test2">1200</string>
+    <string name="backButton">back</string>
+    <string name="answerButton">answer</string>
+</resources>
