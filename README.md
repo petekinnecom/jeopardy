@@ -1,7 +1,7 @@
 Jeopardy
 ========
 
-I've always loved having trivia questions ready for long car rides.  For long car rides where I'm by myself, I fire up this no-frills app to read me Jeopardy questions.
+I've always loved having trivia questions ready for long car rides.  For long car rides where I'm by myself, I fire up this no-frills app to download and read me Jeopardy questions outloud.
 
 Check out the [J!-Archive](http://j-archive.com/) to find an almost endless supply of trivia questions (ahem, answers.  Sorry Alex.)  The J-archive has no public API, so this app does some web-scraping and a touch of regexing to pull out the questions.  It then both presents them in an activity view and passes them to Android's text-to-speech processor to be read outloud.  
 
